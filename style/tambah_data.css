@@ -1,0 +1,77 @@
+.form-custom {
+    background-color: white;
+    max-width: 1024px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.wrap-form {
+    width: 100%;
+    padding: 10px 10px 0 10px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: grid;
+    gap: 5px;
+}
+
+.form-group {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 600;
+}
+
+.wrap-button {
+    display: flex;
+    justify-content: center;
+}
+
+.input-custom {
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-custom {
+    padding: 7px 15px 7px 15px;
+    margin-left: 4px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+@media (min-width: 1024px) {
+    .wrap-form {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .wrap-form {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .wrap-form {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,56 @@
+#search {
+    font-size: 20px;
+    width: 100%;
+    float: right;
+    margin-top: 10px;
+    background-color: #E3E3E3;
+}
+#search p {
+    margin: 0px;
+    padding: 10px 20px; 
+}
+
+.custome-input {
+    font-size: 16px;
+    padding: 10px 14px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button-custom {
+    padding: 10px 14px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.table-container {
+    margin-top: 10px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid black;
+    min-width: 600px;
+}
+
+th, td {
+    padding:8px 15px;
+    border:1px black solid;
+}
+
+tr:nth-child(2n+3) {
+    background-color: #F2F2F2;
+}

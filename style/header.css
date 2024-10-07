@@ -1,0 +1,19 @@
+/* layout/navbar.php */
+#header {
+    margin-bottom: 20px;
+}
+
+#logo {
+    font-size: 42px;
+    text-shadow: 1px 2px #C0C0C0;
+    margin-top: 10px; 
+    margin-bottom: 0px;
+}
+
+#logo span {
+    color: green;
+}
+
+#tanggal{ 
+    text-align: center;
+}
